@@ -32,8 +32,6 @@ public class Menu_Complete : MonoBehaviour {
 		Best.text = GameManager.Best + "";
 		scoreRunning = GameManager.Score / 90;      //count in 1.5s -> 1s = 60 frames
 
-		Advertisements.Instance.ShowInterstitial();
-
 	}
 
 	// Make score running and compare the score to get star

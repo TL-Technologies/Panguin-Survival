@@ -29,7 +29,6 @@ public class MenuManager : MonoBehaviour {
 			GamePause.SetActive (false);
 			Time.timeScale = 1;
 		}
-		Advertisements.Instance.ShowInterstitial();
     }
 
 	public void Restart(){

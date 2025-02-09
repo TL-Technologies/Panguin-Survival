@@ -7,7 +7,6 @@ public class Menu_GameOver : MonoBehaviour {
 	void Start () {
 		if (GlobalValue.levelPlaying >= GameManager.HighestLevel || GameManager.instance.isFinishWorld)
 			Next.SetActive (false);
-		Advertisements.Instance.ShowInterstitial();
 
 	}
 }

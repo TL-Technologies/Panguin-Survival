@@ -30,8 +30,6 @@ public class Menu_HomeScreen : MonoBehaviour {
 
 	void Start(){
 		WorldReached = PlayerPrefs.GetInt ("WorldReached", 1);
-		Advertisements.Instance.Initialize();
-		Advertisements.Instance.ShowBanner(BannerPosition.BOTTOM, BannerType.Banner);
 	}
 	
 	// Update is called once per frame
